@@ -371,8 +371,10 @@ footer p{
         width:60%;
         height: 80px;
         font-size: 150%;
-        left: 10%;
-        right: 10%;
+        left: 15%;
+        right: 15%;
+        top:25%;
+
     }
     .bienvenida{
         top: 40%;
@@ -387,7 +389,12 @@ footer p{
     }
     .galeria{
         grid-template-columns: repeat(1,98%);
-    }    
+    }  
+    .portfolio-card-info { 
+        font-size: 70%;
+        padding: 0% 7% 5% 0%;
+    }
+
     .contact-card {
         flex-direction: column;
         margin: 0% 5% 0% 5%;
@@ -398,7 +405,7 @@ footer p{
     }
     .fecha{  
         padding: 1% 10% 1% 10%;      
-        font-size: 120%;
+        font-size: 80%;
     }
     .reloj{
         padding: 1% 10% 1% 10%; 
@@ -410,13 +417,13 @@ footer p{
     }    
     
     .relojPosicion{
-        top:60%;
+        top:70%;
         left: 10%;
         width: 120%;
     }
     .titulo,.titulo2{     
        margin: 10% auto;
-      }
+    }
 
    
     .referencias{
