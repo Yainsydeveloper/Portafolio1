@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <script src="https://kit.fontawesome.com/382381b436.js" crossorigin="anonymous"></script>
-    <title>Portafolio Yainsy Contreras</title>
-   
+    <script src="https://kit.fontawesome.com/382381b436.js" crossorigin="anonymous"></script>     
+    <title>Portafolio Yainsy Contreras</title>   
 </head>
 <body>
   
@@ -323,18 +322,74 @@
           <h2 class="titulo" id="referencias">REFERENCIAS</h2>
           <a href="Index.html" class="volver"><i class="fa-solid fa-angles-up"></i></a>
         </section>
-        <section class="referencias">
-          <div>
-            <img src="img/jesusvRef.png" alt="error" id="animado">
-            <p lass="animate__animated animate__bounce">Opino que eres una PRO jajaja</p>
-          </div>
-          <div>
-            <img src="img/jesusvRef2.png" alt="error"id="animado">
-          </div>
-          <div>
-            <img src="img/jesusvRef.png" alt="error"id="animado">
-          </div>        
+        <section class="">
+          <article class="carousel" style="--carousel-bg-color: var(--white-alpha-color);">
+            <input type="radio" name="slides" id="slide-1" checked>
+            <input type="radio" name="slides" id="slide-2">
+            <input type="radio" name="slides" id="slide-3">
+            <input type="radio" name="slides" id="slide-4">
+            <ul class="slides">
+              <li class="slide">
+                <img class="avatar"
+                  src="img/card-wendyLeon.png"
+                  alt="Cliente 1">
+                <blockquote>"Excelente compañera, dedicada y muy responsable presta a cualqueir solicitud, con 
+                  conocimiento sobre <i>HTML,CSS,BOOSTRAP, Scrum</i>, siempre anuente a colaborar y buscar la mejor solución en
+                  cada proyecto, ya sea trabajando en equipo o proyectos individuales."
+                </blockquote>
+                <h3 class="text-first-color">Wendy Leon</h3>
+                <h6>Analista Funcional</h6>
+              </li>
+              <li class="slide">
+                <img class="avatar"
+                  src="img/card-jesusVeliz.png"
+                  alt="Cliente 2">
+                <blockquote>"En lo personal y en lo profesional recomiendo a Yainsy por sus conocimientos y por
+                  la calidad humana que le
+                  caracteriza, excelente profesional muy integral, con muy conocimiento en <i>JAVA</i>, <i>SQL, MySql</i> además
+                  del manejo de control de versiones como <i>Git</i> y de dependencia con <i>Meven</i>."
+                </blockquote>
+                <h3 class="text-first-color">Jesus Veliz</h3>
+                <h6>Developer Full Stack Java (BBVA)</h6>
+              </li>
+              <li class="slide">
+                <img class="avatar"
+                  src="img/card-RogerPalacios.png"
+                  alt="Cliente 1">
+                <blockquote>"En lo personal y en lo profesional recomiendo a Yainsy por su sentido de
+                   responsabilidad y compromiso, es organizada y dispuesta a aprender y asumir nuevos 
+                   retos."
+                </blockquote>
+                <h3 class="text-first-color">Roger Palacios</h3>
+                <h6>Desarrollador Freelancer</h6>
+              </li>
+              <li class="slide">
+                <img class="avatar"
+                  src="img/card-alejandro.png"
+                  alt="Cliente 2">
+                <blockquote>
+                  "Recomiendo a Yainsy por su disponibilidad y rapida resolucion de problemas, puntualidad y eficiencia"
+                </blockquote>
+                <h3 class="text-first-color">Alejandro Contreras</h3>
+                <h6>Ingeniero en Sistemas</h6>
+              </li>
+            </ul>
+            <aside class="slides-nav">
+              <label for="slide-1" id="dot-1"></label>
+              <label for="slide-2" id="dot-2"></label>
+              <label for="slide-3" id="dot-3"></label>
+              <label for="slide-4" id="dot-4"></label>
+            </aside>
+          </article>
+             
         </section>
+        <!-- ======= Referencias ======= -->
+        
+                
+                  
+             
+          
+       <!-- ======= Pie de pagina ======= -->
         <footer>
           <a href="Index.html">Yainsy Contreras</a>
           <a href="#resumenCV">Acerca</a>                     
@@ -369,6 +424,7 @@
 
 
     <script src="js/js1.js"></script>
-    
+   
+
 </body>
 </html>
