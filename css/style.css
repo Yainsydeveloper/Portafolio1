@@ -5,12 +5,13 @@
     --first-alpha-color:rgba(30, 80, 207, 0.5);
     --second-color: #14192d;
     --second-alpha-color: rgba(20, 25, 45, 0.75);
-    --third-color: #501464;
+    --third-color: #b773cd;
     --white-color: #fff;
+    --third-pink-color: #e1a2f6;
 }
 
 body{
-    background-color: blanchedalmond;
+    background-color: rgb(250, 244, 235);
     font-family: 'Raleway', sans-serif;
 }
 .contenedor{
@@ -366,7 +367,7 @@ body{
     max-width: 800px;
     text-align: center;
     overflow-x: hidden;
-    background-color: var(--carousel-bg-color);
+    
   }
   
   .carousel .slides {
@@ -375,8 +376,8 @@ body{
     width: 400%;
     display: flex;
     list-style: none;
-    transition: transform 0.5s ease-in-out;
-    animation: carousel-slide 12s ease-in-out 3s;
+    transition: transform 1s ease-in-out;
+    animation: carousel-slide 15s ease-in-out 3s;
   }
   
   .carousel input {
@@ -384,7 +385,7 @@ body{
   }
   
   .carousel label {
-    border: medium solid var(--gray-dark-color);
+    border: medium solid var(--third-color);
     border-radius: 50%;
     margin: 0 0.25rem;
     display: inline-block;
@@ -418,8 +419,8 @@ body{
   #slide-2:checked ~ .slides-nav label#dot-2,
   #slide-3:checked ~ .slides-nav label#dot-3,
   #slide-4:checked ~ .slides-nav label#dot-4 {
-    background-color: var(--gray-dark-color);
-  }
+    background-color: var(--third-pink-color);
+    }
   /* ********** HeroImage ********** */
 
 /*FOOTER*/
