@@ -333,16 +333,7 @@ body{
     background-color:#082a52; 
 }
 /*REFERENCIAS*/
-.referencias{
-    display: grid;
-    grid-template-columns: repeat(3,33%);
-    column-gap: 1rem;
-    row-gap: 1rem;
-}
 /* ********** Carousel ********** */
-
-
-
 @keyframes carousel-slide {
     0% {
       transform: translateX(0%);
@@ -421,8 +412,7 @@ body{
   #slide-4:checked ~ .slides-nav label#dot-4 {
     background-color: var(--third-pink-color);
     }
-  /* ********** HeroImage ********** */
-
+  
 /*FOOTER*/
 footer{
     background-color:#082a52; 
@@ -509,14 +499,16 @@ footer p{
     .titulo,.titulo2{     
        margin: 10% auto;
     }
-
-   
-    .referencias{
-        grid-template-columns: repeat(1,98%);
-        margin: 10% auto;
-
+      
+    .carousel {     
+      width: 90%;  
     }
-    
+    .carousel blockquote {
+      width: 90%;
+    }
+    .avatar{
+      width: 90%;
+    }
 
 }
 
