@@ -6,12 +6,13 @@
     --second-color: #14192d;
     --second-alpha-color: rgba(20, 25, 45, 0.75);
     --third-color:  #025f74;
-    --white-color: #fff;
+    --white-color: #f1f1f1;
     --third-pink-color: #376974;
+    --four-color:  #037f9b;
 }
 
 body{
-    background-color: rgb(250, 244, 235);
+    background-color:#f1f1f1;
     font-family: 'Raleway', sans-serif;
 }
 .contenedor{
@@ -23,15 +24,18 @@ body{
 
 /*navegador*/
 .nav_principal{
-  background-color:rgba(199, 243, 243, 0.5);
-  /* background-color: #f3eadf;*/
-    text-align: center;     
+    background-image:linear-gradient(to right,rgba(159, 243, 243, 0.5), #037f9b 180%); 
+    text-align: right;     
     font-size: 25px;
     padding-top: 1%;
     padding-bottom: 1%;
+    border-radius: 10px;
     
 }
+
 .nav_principal a:hover{
+  border-top: thin solid var(--four-color);
+  border-bottom: thin solid var(--four-color);
   background-color:rgba(159, 243, 243, 0.5);
 }
 .nav_principal a:active{
@@ -40,19 +44,22 @@ body{
 
 .nav_principal a {
     text-decoration: none;
-    color: rgb(66, 52, 5);
+    color: rgba(20, 25, 45, 0.75);
     padding-left: 2%;
     padding-right: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 /* Pagina Inicio*/
 .img_inicio{
-    min-height: 100vh;
+    min-height: 90vh;
     min-width: 50vh;    
     background:url(../img/star-azul\ verdoso.jpeg) no-repeat fixed;
     background-size:cover;
     padding-top: 0.2%;
     margin-top: 0.5%;
     opacity: 0.8;
+    border-bottom: 10% ;
    /*
     width: 150%;
     height: 42rem;    
@@ -62,25 +69,48 @@ body{
      
 }
 .bienvenida{
-    position: absolute;
-    font-size: 185%;
-    top:45%;
-    left: 30%;
+   
 }
+
+.bienvenida .saludo2{
+  position: absolute; 
+  color: rgba(20, 25, 45, 0.75); 
+  font-size: 300%;
+  top:45%;
+  left: 30%;
+}
+
+.bienvenida .nombre{
+  position: absolute;
+  font-size: 500%;
+  top:50%;
+  left: 40%;
+}
+
+.bienvenida .sitio{
+  position: absolute; 
+  color: rgba(20, 25, 45, 0.75); 
+  font-size: 200%;
+  top:61.5%;
+  left: 38%;
+}
+
+
 .saludo{
     font-family: Oswald, Arial;    
     width: 20%;
     height: 190px;
-    padding: 0;
+    padding: 1%;
     font-size: 200%;
     text-align: center;
-    background-color:rgba(30, 80, 207, 0.5); 
+    background-color:rgba(159, 243, 243, 0.5); 
     position: absolute;
     top:15%;
-    left: 25%;
-    color: aliceblue;
-    border-radius: 10px 0px 10px 0px;
+    left: 22%;
+    color:rgba(20, 25, 45, 0.75); 
+    border-radius: 10px;
 }
+/*reloj de inicio*/
 .relojPosicion{
     position: absolute;
     top: 6%;
@@ -89,11 +119,12 @@ body{
     height: 40%;
 
 }
-/*reloj de inicio*/
 .wrap{
-    width: 60%;
-    max-width: 60%;
+    width: 30%;
+    max-width: 30%;
     margin-top: 10%;
+    margin-left: 50%;
+    border-radius: 10%;
     
   }
   .widget{
@@ -107,25 +138,32 @@ body{
   .fecha{
     font-family: Oswald, Arial;
       text-align: center;
-      font-size: 150%;
+      font-size: 100%;
       margin-bottom: 5%;
-      background:rgba(230, 218, 218, 0.5);
-      padding-right: 10%;
-      padding-left: 10%;
+      background:rgba(199, 243, 243, 0.5);
+      padding-right: 5%;
+      padding-left: 5%;
       width: 100%;
+      border-radius:  50% 50% 0% 0%; 
+      border: solid 1px #f1f1f1;
   }
   
   .reloj{
     font-family: Oswald, Arial;
     width: 100%;
-    padding: 10%;
+    padding: 0% 5% 5% 5%;
     font-size: 200%;
     text-align: center;
-    background-color:rgba(30, 80, 207, 0.5);   
+    background-color:rgba(30, 80, 207, 0.5);
+    color:#f1f1f1; 
+    border-radius:0% 0% 30% 30%;  
+    
+    
   
   }
   
    .reloj .caja-segundos{
+    
     display: inline-block;
     
   }
@@ -134,7 +172,7 @@ body{
     
     font-size:80%;
     display: block;
-    margin: 0%;
+    margin: 0% 0% 10% 0%;
   }
   .reloj_contenedor{
     margin-left: 30%;
@@ -194,6 +232,33 @@ body{
     display: block;
     margin: 0px auto;
     border-radius: 50%;
+}
+.fotoPerfil2{  
+  position: absolute; 
+  top:51%;
+  left: 10%;
+  width: 20%;
+  height: 40%; 
+  border-radius: 50%;
+}
+.capaDeFoto{  
+  position: absolute;
+  width: 30%;
+  height: 450px;
+  top:50%;
+  left: -20%;  
+  background-color:rgba(199, 243, 243, 0.5);   
+  -webkit-box-shadow: 10px 10px 5px 0px  #1e5797;
+  -moz-box-shadow: 10px 10px 5px 0px #1e5797;
+  box-shadow: 10px 10px 5px 0px  #1e5797;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 0% 50% 50% 0%;
+  text-align: center;
+  color: rgb(248, 245, 245);
+  padding-top: 1rem;
+  border: solid 1px #ccc;
 }
 .habilidades{
     padding: 5%;
@@ -334,17 +399,26 @@ body{
     display: inline-block;
     padding: 15px 15px;
     text-decoration: none;
-    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    text-shadow: 0 1px 0 rgba(199, 243, 243, 0.5);
     box-shadow: 0 1px 1px rgba(0,0,0,0.3);
     border: solid 1px #ccc;
     outline: none;
 }
-.btn-green{
-    color:white;
-    background-color: #4696f1;
+.btn-green{  
+  color:white;
+  background-color:#1e5797;
+}
+.btn-green2{ 
+  border-radius: 10px; 
+  font-size: 40px;
+  position: absolute;
+  top: 71%;
+  left: 51%;
+  color:white;
+  background-color:rgba(30, 80, 207, 0.5);
 }
 .btn-green:hover{
-    background-color: #1e5797;
+    background-color: #4696f1;
 }
 .btn-green:active{
     background-color:#082a52; 
