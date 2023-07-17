@@ -39,6 +39,8 @@ body{
   border-top: thin solid var(--four-color);
   border-bottom: thin solid var(--four-color);
   background-color:rgba(116, 241, 241, 0.5);
+  border-radius: 10px;
+  
 }
 .nav_principal a:active{
   background-color:rgba(116, 241, 241);
@@ -86,7 +88,7 @@ body{
   position: absolute;
   font-size: 500%;
   background: radial-gradient(rgba(30, 80, 207, 0.5), #14192d, black);
-  top:50%;
+  top:49%;
   left: 40%;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip:text;
@@ -117,6 +119,23 @@ body{
     border: solid #f1f1f1;
    border-width: 0px 0px 3px 3px;
 }
+/*skills*/
+.grillaSkills{
+  position: absolute;
+    top:78%;
+    left: 30%;
+  display: grid;
+  grid-template-columns: repeat(6,10%);
+  justify-content: space-between;
+  align-content: center;
+  color: black;
+  padding: 5%;
+}
+.skills{
+  width: 40%;
+  height: 100 px;
+}
+
 /*reloj de inicio*/
 .relojPosicion{
     position: absolute;
