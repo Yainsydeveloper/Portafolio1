@@ -9,6 +9,7 @@
     --white-color: #f1f1f1;
     --third-pink-color: #376974;
     --four-color:  #037f9b;
+    
 }
 
 body{
@@ -83,15 +84,18 @@ body{
 .bienvenida .nombre{
   position: absolute;
   font-size: 500%;
+  background: linear-gradient(to left,rgba(30, 80, 207, 0.5), #14192d,black);
   top:50%;
   left: 40%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip:text;
 }
 
 .bienvenida .sitio{
   position: absolute; 
   color: rgba(20, 25, 45, 0.75); 
   font-size: 200%;
-  top:62.5%;
+  top:63.5%;
   left: 38%;
 }
 
