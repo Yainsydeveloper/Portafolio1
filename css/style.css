@@ -105,7 +105,7 @@ body{
     text-align: center;
     background-color:rgba(159, 243, 243, 0.5); 
     position: absolute;
-    top:15%;
+    top:20%;
     left: 22%;
     color:rgba(20, 25, 45, 0.75); 
     border-radius: 10px;
@@ -244,7 +244,7 @@ body{
 .capaDeFoto{  
   position: absolute;
   width: 30%;
-  height: 450px;
+  height: 350px;
   top:50%;
   left: -20%;  
   background-color:rgba(199, 243, 243, 0.5);   
