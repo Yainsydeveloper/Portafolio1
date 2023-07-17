@@ -91,7 +91,7 @@ body{
   position: absolute; 
   color: rgba(20, 25, 45, 0.75); 
   font-size: 200%;
-  top:61.5%;
+  top:62.5%;
   left: 38%;
 }
 
@@ -105,7 +105,7 @@ body{
     text-align: center;
     background-color:rgba(159, 243, 243, 0.5); 
     position: absolute;
-    top:20%;
+    top:17%;
     left: 22%;
     color:rgba(20, 25, 45, 0.75); 
     border-radius: 10px;
@@ -419,7 +419,7 @@ body{
   border-radius: 10px; 
   font-size: 40px;
   position: absolute;
-  top: 71%;
+  top: 75%;
   left: 51%;
   color:white;
   background-color:rgba(30, 80, 207, 0.5);
