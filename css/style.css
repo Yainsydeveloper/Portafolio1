@@ -141,7 +141,7 @@ body{
       font-size: 100%;
       margin-bottom: 5%;
       background:rgba(199, 243, 243, 0.5);
-      padding-right: 5%;
+      padding-right: 10%;
       padding-left: 5%;
       width: 100%;
       border-radius:  50% 50% 0% 0%; 
@@ -151,7 +151,7 @@ body{
   .reloj{
     font-family: Oswald, Arial;
     width: 100%;
-    padding: 0% 5% 5% 5%;
+    padding: 0% 10% 10% 5%;
     font-size: 200%;
     text-align: center;
     background-color:rgba(30, 80, 207, 0.5);
