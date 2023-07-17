@@ -9,6 +9,7 @@
     --white-color: #f1f1f1;
     --third-pink-color: #376974;
     --four-color:  #037f9b;
+    --azul-hover-color: #4696f1;
     
 }
 
@@ -37,10 +38,10 @@ body{
 .nav_principal a:hover{
   border-top: thin solid var(--four-color);
   border-bottom: thin solid var(--four-color);
-  background-color:rgba(159, 243, 243, 0.5);
+  background-color:rgba(116, 241, 241, 0.5);
 }
 .nav_principal a:active{
-  background-color:rgba(116, 241, 241, 0.5);
+  background-color:rgba(116, 241, 241);
 }
 
 .nav_principal a {
