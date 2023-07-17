@@ -76,7 +76,7 @@ body{
 .bienvenida .saludo2{
   position: absolute; 
   color: rgba(20, 25, 45, 0.75); 
-  font-size: 300%;
+  font-size: 200%;
   top:45%;
   left: 30%;
 }
@@ -84,7 +84,7 @@ body{
 .bienvenida .nombre{
   position: absolute;
   font-size: 500%;
-  background: radial-gradient(rgba(30, 80, 207, 0.5), #14192d);
+  background: radial-gradient(rgba(30, 80, 207, 0.5), #14192d, black);
   top:50%;
   left: 40%;
   -webkit-text-fill-color: transparent;
@@ -93,7 +93,7 @@ body{
 
 .bienvenida .sitio{
   position: absolute; 
-  color: rgba(20, 25, 45, 0.75); 
+  color: #14192d; 
   font-size: 200%;
   top:63.5%;
   left: 38%;
