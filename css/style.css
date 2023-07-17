@@ -80,7 +80,7 @@ body{
   position: absolute; 
   color: rgba(20, 25, 45, 0.75); 
   font-size: 200%;
-  top:47%;
+  top:45%;
   left: 30%;
 }
 
@@ -274,7 +274,7 @@ body{
   position: absolute;
   width: 30%;
   height: 350px;
-  top:50%;
+  top:48%;
   left: -20%;  
   background-color:rgba(199, 243, 243, 0.5);   
   -webkit-box-shadow: 10px 10px 5px 0px  #1e5797;
