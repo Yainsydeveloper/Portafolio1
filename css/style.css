@@ -84,7 +84,7 @@ body{
 .bienvenida .nombre{
   position: absolute;
   font-size: 500%;
-  background: linear-gradient(to left,rgba(30, 80, 207, 0.5), #14192d,black);
+  background: radial-gradient(rgba(30, 80, 207, 0.5), #14192d);
   top:50%;
   left: 40%;
   -webkit-text-fill-color: transparent;
