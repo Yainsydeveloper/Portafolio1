@@ -15,7 +15,7 @@
 
 body{
     background-color:#f1f1f1;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
 }
 .contenedor{
     width: 1280 px;
@@ -127,8 +127,7 @@ body{
   display: grid;
   grid-template-columns: repeat(6,10%);
   justify-content: space-between;
-  align-content: center;
-  color: black;
+  align-content: center; 
   padding: 5%;
 }
 .skills{
@@ -213,6 +212,8 @@ body{
     display: grid;
     grid-template-columns: repeat(2,50%);    
     text-align: right;
+    font-family: 'Raleway';
+    color:#14192d;
 }
 .titulo{    
     border-top: thin solid var(--first-color);
@@ -246,14 +247,20 @@ body{
     grid-template-columns: repeat(3,33%);
     justify-content: space-between;
     align-content: center;
-    color: black;
+    color:#14192d;
     padding: 5%;
+    font-family: 'Raleway';
+   
 }
 .presentacion{
-    text-align: left;
-    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-family: 'Raleway';
     padding: 5%;
-    color: #01313c;
+    color:#14192d;
+    font-size: 125%;
+}
+.profesion{
+  font-size: 120%;
 }
 .fotoPerfil{   
     width: 80%;
