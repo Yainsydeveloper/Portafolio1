@@ -80,7 +80,7 @@ body{
   position: absolute; 
   color: rgba(20, 25, 45, 0.75); 
   font-size: 200%;
-  top:45%;
+  top:35%;
   left: 30%;
 }
 
@@ -88,8 +88,8 @@ body{
   position: absolute;
   font-size: 500%;
   background: radial-gradient(rgba(30, 80, 207, 0.5), #14192d, black);
-  top:49%;
-  left: 40%;
+  top:35%;
+  left: 35%;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip:text;
 }
@@ -98,7 +98,7 @@ body{
   position: absolute; 
   color: #14192d; 
   font-size: 200%;
-  top:63.5%;
+  top: 46%;
   left: 38%;
 }
 
@@ -122,17 +122,33 @@ body{
 /*skills*/
 .grillaSkills{
   position: absolute;
-    top:78%;
+    top:70%;
     left: 30%;
   display: grid;
-  grid-template-columns: repeat(6,10%);
+  grid-template-columns: repeat(6,15%);
   justify-content: space-between;
-  align-content: center; 
+  align-content: center;
+  align-items: center; 
   padding: 5%;
 }
 .skills{
   width: 40%;
   height: 100 px;
+  background:rgba(199, 243, 243, 0.3);
+  border-radius: 20px;  
+}
+.grillaSkills2{
+  display: grid;
+  grid-template-columns: repeat(3,35%);
+  justify-content: space-between;
+  align-content: center; 
+  padding: 5%;
+}
+.skills3{
+  width: 80%;
+  height: 100 px;
+  background: #f1f1f1;
+  border-radius: 20px;  
 }
 
 /*reloj de inicio*/
@@ -214,6 +230,7 @@ body{
     text-align: right;
     font-family: 'Raleway';
     color:#14192d;
+    padding-top: 5%;
 }
 .titulo{    
     border-top: thin solid var(--first-color);
@@ -248,7 +265,7 @@ body{
     justify-content: space-between;
     align-content: center;
     color:#14192d;
-    padding: 5%;
+    padding: 0%;
     font-family: 'Raleway';
    
 }
@@ -257,7 +274,7 @@ body{
     font-family: 'Raleway';
     padding: 5%;
     color:#14192d;
-    font-size: 125%;
+    font-size: 120%;
 }
 .profesion{
   font-size: 120%;
@@ -450,7 +467,7 @@ body{
   border-radius: 10px; 
   font-size: 40px;
   position: absolute;
-  top: 75%;
+  top: 58%;
   left: 51%;
   color:white;
   background-color:rgba(30, 80, 207, 0.5);
